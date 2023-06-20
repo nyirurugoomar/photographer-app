@@ -11,7 +11,7 @@ function Navbar() {
         setNav(!nav)
     }
 
-    useEffect(()=>{
+    useEffect(()=>{ 
         function changeColor(){
             if(window.scrollY >=90){
                 setColor('#ffffff')
